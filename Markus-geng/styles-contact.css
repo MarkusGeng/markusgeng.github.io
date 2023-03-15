@@ -1,0 +1,203 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+div.home-container { 
+background: white center center fixed;
+background-size: cover;
+position: relative;
+min-height: 10vh;
+margin-left: auto;
+margin-right: auto;
+max-width: 75em;
+    background-color: floralwhite;
+    
+}
+
+div.container { 
+position: relative;
+min-height: 100vh;
+background-color:azure;
+}
+div.image{ 
+    height: 28em;
+    width: 18em; 
+    
+    
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+font-family: sans-serif;
+
+}
+
+main { 
+padding: 1.5rem 1.5rem 1.5rem;
+}
+img {
+width: 100%; /*Please leave this line.*/
+display: block;
+
+}
+
+header {
+
+    display: grid;
+grid-template-columns: 50% auto;
+grid-template-rows: auto;
+padding: 0.5rem 0.5rem;
+    background-color: rgb(30 35 45)
+}
+
+nav ul  {
+text-align: right;
+margin: 0.5em auto;
+    
+text-decoration: none;
+ }  
+ul li 	{
+list-style-type: none;
+    margin: 1em;
+}
+
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+ background-color: whitesmoke;
+    background-size: cover;
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+ background-position: center;	
+	
+}
+
+
+h2 {
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: black;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+    font-family: serif;
+font-style: italic;   
+}
+h3 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-size: 2em;
+    margin: 0 0.1em;
+    color: black;
+    font-family: 'Climate Crisis'; 
+    font-family: bold; 
+    font-size: 10 pt;
+text-align: left;  
+    padding: 0.5em 1em;
+}
+h4 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-size: 2em;
+    margin: 0 0.1em;
+    color: black;
+    font-family: sans-serif; 
+    font-size: 14 pt;
+text-align: left;  
+    padding: 0.5em 1em;
+}
+
+p {
+    font-family: sans-serif
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: black;
+    margin: 0.3em; 
+}
+/* This adds a bit of space above the nav element */
+
+
+
+a{
+color: whitesmoke;
+text-decoration: none; /* This
+removes the underline */
+font-weight: bold;
+}
+a:hover{
+color: black;
+background: white; /* This is the
+pink hover effect -- you’ll want to
+change this! */
+}
+
+footer {
+bottom: 0;
+width: 100%;
+height: 3rem; 
+box-sizing: border-box;
+padding: 0.5em 1em;
+background: grey;
+text-align: left;
+Font-size: 1em;
+    color: aliceblue;
+    }
+
+@media screen and (min-width: 60em) {
+nav ul li{
+display: inline;
+font-size:1.5em;
+   } 
+    ul li 	{
+list-style-type: none;
+    
+    margin: 1em;
+}
+body    {
+background-color:gainsboro;
+width: 80em; 
+margin-left: auto; 
+margin-right: auto; 
+}
+nav ul li.selected a {
+color: rgb (255,255,255);
+background-color: floralwhite;
+    
+    
+
