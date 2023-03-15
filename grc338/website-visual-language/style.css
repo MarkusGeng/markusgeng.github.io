@@ -8,41 +8,35 @@ min-height: 100vh;
 margin-left: auto;
 margin-right: auto;
 max-width: 75em;
-    background-color: rgb(186, 168, 153);
+background-color: rgb(186, 168, 153);
 }
 div.container { 
 position: relative;
 min-height: 100vh;
 background-color:rgb(254,254,254);
 }
-
 Table { 
-    position: relative;
-        margin: 0 3em ; 
-border-collapse:separate;
-border:1px ;}
-TD { margin-top: 4em
-    ; 
-     } 
-
+position: relative;
+border-spacing: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
 div.image-beans{ 
-
 margin: 0.75em 0.75em 0.75;
 display: grid;
 grid-template-columns: auto auto;
 grid-template-rows: auto auto;
 }
-   
 div.text-about-left{ 
-     display: grid;
-    grid-template-columns: 3/5;
-    grid-template-rows: 3/5; 
-    padding-bottom: 3rem; 
-    
+display: grid;
+grid-template-columns: 3/5;
+grid-template-rows: 3/5; 
+padding-bottom: 3rem; 
 }
 /* >>> IMPORTANT: you have to change the wrap the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class.  */
 body {
-font-family: sans-serif
+font-family: 'Roboto Slab', serif;
+font-size: 0.9em;
 background-color:rgb(255,18,18)
 }
 main { 
@@ -56,35 +50,48 @@ header {
 display: grid;
 grid-template-columns: 50% auto;
 background: rgb(169, 124, 80);
-padding: 1.4rem 1.4rem;
+padding: 0.2rem 0.2rem;
 }
 h1 {
 width: 15em;
 text-align: left;  
 }
-h2, h3, h4 {
+h2, h3, h4,h5 {
 font-weight: bold;
+font-family: 'Roboto Slab', serif;
 }
-
-h4{
+h5{
 font-weight: bold;
-    Font-size: 16pt; 
+Font-size: 16pt; 
+}
+h4{
+;
+Font-size: 1.2em; 
+font-family: 'Roboto Slab', serif;
 }
 h2 {
-font-size: 2em;
-margin: 0.5em 0 0.75em;
+font-size: 3em;
+margin: 0 0 0.2em;
+font-family: 'Roboto Slab', serif;
 }
 h3 {
-font-size: 1.2em;
-margin: 1em 0em 1em;
+font-size: 2.2em;
+font-family: 'Abril Fatface';
+color: rgb(186, 168, 153);
 }
 a {
 text-decoration: none;
 }
+a:hover{
+color: black;
+background: white; 
+}
 nav ul  {
 text-align: right;
-margin: 0.5em .2em;
+margin: 0.5em 6em 0.2em 0.2em;
 text-transform: uppercase;
+font-kerning: 0.2em;
+font-size: 1.2em;
 }
 ul li 	{
 list-style-type: none;
@@ -94,9 +101,9 @@ margin-bottom: 1.2em;
 }
 main.menu ul {
 margin: 1em 0em;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 1rem;
+display: grid;
+grid-template-columns: 50% 50%;
+grid-gap: 1rem;
 }	
 main.menu ul li {
 margin: 0.75em 0.75em 0.75;
@@ -104,8 +111,13 @@ display: grid;
 grid-template-columns: auto auto;
 grid-template-rows: auto auto;
 }
-
-
+main.menu h3
+{
+color: rgb(186, 168, 153);
+font-size: 3em;
+margin: 0.5em 0 0 0  ;
+font-family: 'Abril Fatface';
+}
 p {
 margin: 1em 0 0;
 }
@@ -119,9 +131,8 @@ grid-column: 2/3;
 color: rgb(130 130 130);
 text-align: right;
 margin: 0em;
-    font-size: 14pt; 
-    font-weight: bold;
-    
+font-size: 14pt; 
+font-weight: bold;
 }
 nav ul li {
 text-transform: uppercase;
@@ -145,29 +156,26 @@ p.slogan {
 font-size: 5em;
 font-family: serif;
 font-style: italic;
-margin: 1em 0.5em 3em 0.5em;
+margin: 1em 0.5em 1em 1em;
 color: rgb(0,0,0,);	
 }
 footer {
 position: absolute;
-
 width: 100%;
-height: 3rem; 
+height: 1rem; 
 box-sizing: border-box;
-padding: 1em 1em;
-background: rgb(130 130 130);
+padding: 0.5em 0.5em;
 text-align: left;
 Font-size: 2em;
 }
 address {
 color: rgb(0,0,0);
-    
 }
 footer p {
 margin: 0;
+font-size: 12pt;
 }
 article {
-
 max-width: 40em;
 margin-right: auto;
 margin-left: auto;
