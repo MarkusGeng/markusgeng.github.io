@@ -66,7 +66,7 @@ Font-size: 16pt;
 }
 h4{
 ;
-Font-size: 1.2em; 
+Font-size: 1.4em; 
 font-family: 'Roboto Slab', serif;
 }
 h2 {
@@ -77,14 +77,14 @@ font-family: 'Roboto Slab', serif;
 h3 {
 font-size: 2.2em;
 font-family: 'Abril Fatface';
-color: rgb(186, 168, 153);
+color: rgb (186, 168, 153);
 }
 a {
 text-decoration: none;
 }
 a:hover{
-color: black;
-background: white; 
+color: rgb (10, 10, 10);
+background: rgb (255 255 255); 
 }
 nav ul  {
 text-align: right;
