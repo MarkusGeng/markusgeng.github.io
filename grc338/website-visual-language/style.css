@@ -8,12 +8,12 @@ min-height: 100vh;
 margin-left: auto;
 margin-right: auto;
 max-width: 75em;
-background-color: rgb(186, 168, 153);
+background-color: rgb (186, 168, 153);
 }
 div.container { 
 position: relative;
 min-height: 100vh;
-background-color:rgb(254,254,254);
+background-color:rgb (254,254,254);
 }
 Table { 
 position: relative;
@@ -37,7 +37,7 @@ padding-bottom: 3rem;
 body {
 font-family: 'Roboto Slab', serif;
 font-size: 0.9em;
-background-color:rgb(255,18,18)
+background-color:rgb (255,18,18)
 }
 main { 
 padding: 1.5rem 1.5rem 1.5rem;
@@ -49,7 +49,7 @@ display: block;
 header {
 display: grid;
 grid-template-columns: 50% auto;
-background: rgb(169, 124, 80);
+background: rgb (169, 124, 80);
 padding: 0.2rem 0.2rem;
 }
 h1 {
@@ -113,7 +113,7 @@ grid-template-rows: auto auto;
 }
 main.menu h3
 {
-color: rgb(186, 168, 153);
+color: rgb (186, 168, 153);
 font-size: 3em;
 margin: 0.5em 0 0 0  ;
 font-family: 'Abril Fatface';
@@ -128,7 +128,7 @@ margin: 0em 0em 0.1em 0;
 p.price {
 grid-row: 1/2;
 grid-column: 2/3;
-color: rgb(130 130 130);
+color: rgb (130 130 130);
 text-align: right;
 margin: 0em;
 font-size: 1.1em; 
@@ -144,20 +144,20 @@ margin-right: 0.5em;
 margin-top: 1em;
 }
 nav ul li a {
-color: rgb(220 220 220);
-background-color: rgb(58 58 58);
+color: rgb (220 220 220);
+background-color: rgb (58 58 58);
 padding: 0.3em;
 text-decoration: none;
 }
 nav ul li.selected a{
-background-color: rgb(216, 189, 164);
+background-color: rgb (216, 189, 164);
 }
 p.slogan {
 font-size: 5em;
 font-family: serif;
 font-style: italic;
 margin: 1em 0.5em 1em 1em;
-color: rgb(0,0,0,);	
+color: rgb (0,0,0,);	
 }
 footer {
 position: absolute;
@@ -169,7 +169,7 @@ text-align: left;
 Font-size: 2em;
 }
 address {
-color: rgb(0,0,0);
+color: rgb (0,0,0);
 }
 footer p {
 margin: 0;
@@ -180,13 +180,13 @@ max-width: 40em;
 margin-right: auto;
 margin-left: auto;
 }
-@media screen and (min-width: 60em) {
+@media screen and(min-width: 60em) {
 nav ul li{
 display: inline;
 font-size:1.5em;
 }
 body    {
-background-color: rgb(250, 250, 250);
+background-color: rgb (250, 250, 250);
 width: 80em; 
 margin-left: auto; 
 margin-right: auto; 
