@@ -62,7 +62,7 @@ font-family: 'Roboto Slab', serif;
 }
 h5{
 font-weight: bold;
-Font-size: 16pt; 
+Font-size: 1.1em; 
 }
 h4{
 ;
@@ -83,7 +83,7 @@ a {
 text-decoration: none;
 }
 a:hover{
-color: rgb (10, 10, 10);
+color: rgb (10 10 10);
 background: rgb (255 255 255); 
 }
 nav ul  {
@@ -157,7 +157,7 @@ font-size: 5em;
 font-family: serif;
 font-style: italic;
 margin: 1em 0.5em 1em 1em;
-color: rgb (0,0,0,);	
+color: rgb(0,0,0,);	
 }
 footer {
 position: absolute;
@@ -173,20 +173,20 @@ color: rgb (0,0,0);
 }
 footer p {
 margin: 0;
-font-size: 12pt;
+font-size: 1.2em;
 }
 article {
 max-width: 40em;
 margin-right: auto;
 margin-left: auto;
 }
-@media screen and(min-width: 60em) {
+@media screen and (min-width: 60em) {
 nav ul li{
 display: inline;
 font-size:1.5em;
 }
 body    {
-background-color: rgb (250, 250, 250);
+background-color: rgb(250, 250, 250);
 width: 80em; 
 margin-left: auto; 
 margin-right: auto; 
